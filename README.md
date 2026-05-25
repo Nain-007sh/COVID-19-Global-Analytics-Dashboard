@@ -9,6 +9,24 @@ An executive-level Business Intelligence (BI) dashboard developed using **Google
 
 ---
 
+## 📊 Dashboard Visuals & Project Outputs
+
+GitHub par is project ke live outputs aur interface design niche dekha ja sakta hai:
+
+### 📈 Page 1: Global Overview Dashboard
+Comprehensive KPI cards showing global summaries, new cases by country, and breakdown of death and recovery rates.
+![Global Overview](Assets/01_global_overview.png)
+
+### 🗺️ Page 2: Testing & Regional Distribution
+Scatter plot investigating testing vs. infection correlation, alongside a continent-wise distribution treemap.
+![Testing and Distribution](Assets/02_testing_and_distribution.png)
+
+### 📉 Page 3: Country Data Table
+Detailed granular data comparison and regional growth patterns across infected countries.
+![Country Data Table](Assets/03_country_data_table.png)
+
+---
+
 ## 🚀 Key Features
 
 - **Executive Overview**: High-level KPI scorecards providing real-time global summaries.
@@ -17,25 +35,6 @@ An executive-level Business Intelligence (BI) dashboard developed using **Google
 - **Custom Metrics**: Built-in calculated fields for precise Recovery and Death Rate evaluation.
 - **Interactive Controls**: Date-range filters, hover tooltips, and click-to-filter visual elements.
 - **Modern UI**: Dark-themed navy interface designed for professional corporate reporting.
-
----
-
-## 📊 Dashboard Structure
-
-The dashboard is structured across **3 core pages** to deliver data exploration:
-
-### 📈 Page 1: Executive Overview Dashboard
-* **KPI Scorecards:** Total Cases, Total Tests, Total Recovered, Active Cases, and Total Deaths.
-* **Country Analysis:** Bar charts displaying New Cases and Total Cases by Country/Region.
-* **Recovery vs Fatality:** Pie charts evaluating the breakdown of Death and Recovery rates.
-
-### 🗺️ Page 2: Country & Continent Analysis
-* **Scatter Plot Matrix:** Investigates the direct correlation between `TotalTests` (X-Axis) and `TotalCases` (Y-Axis).
-* **Treemap Visualization:** Breakdown of `TotalCases` across major continents (North America, Asia, South America, Europe, Africa, Australia/Oceania).
-
-### 📉 Page 3: Trend & Growth Analysis
-* **Horizontal Bar Charts:** Highlights country-specific death rates.
-* **Growth Trends:** Comparative growth patterns highlighting case changes across infected regions.
 
 ---
 
@@ -75,7 +74,7 @@ To ensure seamless report performance, the source data underwent the following o
 ## 📂 Project Deliverables Included
 
 - **Fully Functional Looker Studio Report Link**
-- **Cleaned & Processed COVID-19 Source Dataset**
+- **Cleaned & Processed COVID-19 Source Dataset (worldometer_data.csv)**
 - **Pre-configured Chart Mappings & Style Formats**
 
 ---
